@@ -1,0 +1,13 @@
+.container {
+  background-size: cover !important;
+  height: 400px;
+  background-position: 60% 25% !important;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    height: 600px;
+  }
+}
